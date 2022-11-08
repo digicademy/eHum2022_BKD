@@ -56,12 +56,13 @@
                 <h5>
                     <strong>Workshop </strong>
                 </h5>
-                <h2 class="red down-100">Buber-Korrespondenzen Digital</h2>
-                <h3 class=" down-25">Werkstattbericht</h3>
+                <h2 class="down-100">Buber-Korrespondenzen Digital</h2>
+                <h3 class="down-25">Werkstattbericht</h3>
                 <h5 class="down-25"
                     ><!--<a href="https://github.com/kollatzthomas/EAJS-DF-03" target="_blank"
                         >git</a>                     <br />--> slides <a
-                        href="https://digicademy.github.io/eHum2022_BKD" title="View the presentation online"
+                        href="https://digicademy.github.io/eHum2022_BKD"
+                        title="View the presentation online"
                         >https://digicademy.github.io/eHum2022_BKD</a><br /></h5>
                 <h6>How to use this presentation</h6>
                 <h6 style="color:gray" class="up-25">use <kbd>spacebar</kbd> or <kbd>←</kbd> arrow
@@ -86,18 +87,13 @@
                 </h5>
             </div>
             <div class="step">
+                <h2>Buber-Korrespondenzen Digital</h2>
                 <table class="small">
                     <tr>
-                        
-                        <th>BKD <a href="https://agate.academy/id/PR.768" target="_blank"
+                        <th >BKD <a href="https://agate.academy/id/PR.768.DE" target="_blank"
                             >🔗</a></th>
-                    </tr>
-                    <tr>
-                        
-                        <td>Buber-Korrespondenzen Digital</td>
-                    </tr>
-                    <tr>
-                        
+                        <th>2021-2045</th>                    </tr>
+                                        <tr>
                         <td>
                             <figure class="mfp-lightbox">
                                 <a
@@ -105,41 +101,30 @@
                                     target="_blank">
                                     <img
                                         src="resources/img/screencapture-adwmainz-de-en-projects-buber-korrespondenzen-digital-description-html-2022-06-13-16_22_07.png"
-                                        alt="bkd" style="width:20rem" />
+                                        alt="bkd" style="width:25rem" />
                                 </a>
                             </figure>
                         </td>
-                    </tr>
-                    <tr>
-                        
+                    
                         <td>
-                            <ul>
+                            <ul class="line-height-one-five even-left">
                                 <li>~6,400 correspondence partners</li>
                                 <li>~41,000 correspondences</li>
-                                <li>1890<sup>th</sup>-1965</li>
+                                <li>1895-1965</li>
+                                <li>12 languages</li>
+                                <li>worldwide</li>
+
                             </ul>
                         </td>
                     </tr>
-                    <tr>
-                        
-                        <td>2021-2045</td>
-                    </tr>
+                    
                 </table>
             </div>
-            
-            
-            
-            
-            
-            
-            
-            
-            
             <div class="step">
-                <h2 class="red">Buber-Correspondences</h2>
+                <h2>Buber-Correspondences</h2>
                 <div class="row">
                     <div class="six columns">
-                                               <figure class="mfp-lightbox up-10 centered">
+                        <figure class="mfp-lightbox up-10 centered">
                             <a href="resources/img/herzl_buber_env.png">
                                 <img src="resources/img/herzl_buber_env.png" alt="envelope"
                                     style="width:20rem" />
@@ -147,42 +132,35 @@
                         </figure>
                     </div>
                     <div class="six columns">
-                        
                         <table class="x-small line-height-one down-25">
                             <tr>
-                                
                                 <td>sender</td>
                                 <td>Martin Buber</td>
                             </tr>
                             <tr>
-                                
                                 <td>receiver</td>
                                 <td>Theodor Herzl</td>
                             </tr>
                             <tr>
-                                
                                 <td>place (sent)</td>
                                 <td>Wien</td>
                             </tr>
-                           <tr>
+                            <tr>
                                 <td>place (received)</td>
                                 <td>Wien</td>
                             </tr>
                             <tr>
-                                
                                 <td>date (sent)</td>
                                 <td>May 21, 1903</td>
                             </tr>
                         </table>
                     </div>
                 </div>
-                
             </div>
             <div class="step">
-                <h2 class="red"><code>correspDesc</code>
-                </h2>                <div class="row">
+                <h2>&lt;correspDesc&gt; </h2>
+                <div class="row">
                     <div class="twalve columns">
-                        
                         <pre><code class="linenumbers xml">&lt;correspDesc&gt;
  &lt;correspAction type="sent"&gt;
   &lt;persName  key="P.0000001"
@@ -200,36 +178,36 @@
 </code>
                         
                      </pre>
-                        <p class="small up-100">☞ provide basic information about correspondence within <code>correspDesc</code>-Element</p>
+                        <p class="small up-100">☞ provide basic information about correspondence
+                            within <code>correspDesc</code>-Element</p>
                     </div>
                 </div>
             </div>
             <div class="step">
-                <h2 class="red"><code>text</code></h2>
+                <h2>&lt;text&gt;</h2>
                 <pre><code>&lt;div type="content" xml:lang="de"&gt; 
 &lt;pb n="1"/&gt;
- &lt;opener&gt; 
-    &lt;dateline&gt;Wien &lt;date when="1903-05-21"&gt;21.V.03&lt;/date&gt;.&lt;/dateline&gt;
-    &lt;salute&gt;Hochgeehrter Herr Doctor ?&lt;/salute&gt;
- &lt;/opener&gt;
- &lt;p&gt;Gestatten Sie mir, in Erwiderung Ihres werten 
- &lt;lb/&gt;Schreibens von &lt;date when="1903-05-20"&gt;gestern&lt;/date&gt; an Sie die Frage zu richten, ob Ihrer Ansicht nach 
- &lt;lb/&gt;die Form von &lt;persName key="P.0003758"&gt;Nordaus&lt;/persName&gt; 
-    &lt;name key="W.0000028.01" type="work"&gt;Artikel&lt;/name&gt; und die Art seiner Verbreitung geeignet 
- &lt;lb/&gt;waren, auf die Entwickelung der Bewegung günstig einzuwirken. Beide 
- &lt;lb/&gt;scheinen mir Ihrer eigenen Art &lt;gap reason="deleted" unit="line" quantity="0.5"/&gt; 
- &lt;lb/&gt;&lt;gap reason="deleted" unit="line" quantity="0.25" /&gt;so fremd zu sein, dass ich unmöglich annehmen kann, &lt;lb/&gt;sie hätten Ihre volle &lt;add place="above"&gt;und innerste &lt;/add&gt;Billigung gefunden. Unsere &lt;name key="W.0000021.01" type="work"&gt;Stellungnahme&lt;/name&gt; ? &lt;add place="above"&gt;die &lt;/add&gt;nicht&lt;add place="inline"&gt;s&lt;/add&gt; &lt;lb/&gt;&lt;subst&gt;&lt;del rend="strikethrough"&gt;die&lt;/del&gt;&lt;add place="above"&gt;mit der&lt;/add&gt;&lt;/subst&gt; gewisser gegnerischer Elemente &lt;add place="above"&gt;zu tun hat &lt;/add&gt;? war die unseres Erachtens notwendige 
- &lt;lb/&gt;Reaktion. Eine wirklich starke &lt;orgName key="K.0000001"&gt;Partei&lt;/orgName&gt; wird es sich zum Ruhme anrechnen, &lt;lb/&gt;dass sie für die Meinung jedes Parteimitglieds ? &lt;del rend="strikethrough"&gt;für &lt;/del&gt;jede in correcter Form &lt;lb/&gt;ausgedrückte Meinung ? Platz hat. &lt;g/&gt;So die deutsche Sozialdemokratie im &lt;lb/&gt;Falle &lt;persName key="P.0000444"&gt;Bernstein&lt;/persName&gt;, während für die französische das Versagen in einem ähnlichen &lt;lb/&gt;Falle der Anfang vom Ende sein dürfte.&lt;g/&gt; &lt;del rend="strikethrough"&gt;Nur &lt;/del&gt;&lt;subst&gt;&lt;del rend="overstrike"&gt;e&lt;/del&gt;&lt;add&gt;E&lt;/add&gt;&lt;/subst&gt;ine gerecht und freiheitlich &lt;lb/&gt;geleitete Bewegung wird in der Stunde der grossen Parole jeden Mann &lt;lb/&gt;auf seinem Posten und alle Meinungen zu Einer Tat verschmolzen finden.&lt;/p&gt;
- &lt;closer&gt; 
+&lt;opener&gt; 
+&lt;dateline&gt;Wien &lt;date when="1903-05-21"&gt;21.V.03&lt;/date&gt;.&lt;/dateline&gt;
+&lt;salute&gt;Hochgeehrter Herr Doctor ?&lt;/salute&gt;
+&lt;/opener&gt;
+&lt;p&gt;Gestatten Sie mir, in Erwiderung Ihres werten 
+&lt;lb/&gt;Schreibens von &lt;date when="1903-05-20"&gt;gestern&lt;/date&gt; an Sie die Frage zu richten, ob Ihrer Ansicht nach 
+&lt;lb/&gt;die Form von &lt;persName key="P.0003758"&gt;Nordaus&lt;/persName&gt; 
+&lt;name key="W.0000028.01" type="work"&gt;Artikel&lt;/name&gt; und die Art seiner Verbreitung geeignet 
+&lt;lb/&gt;waren, auf die Entwickelung der Bewegung günstig einzuwirken. Beide 
+&lt;lb/&gt;scheinen mir Ihrer eigenen Art &lt;gap reason="deleted" unit="line" quantity="0.5"/&gt; 
+&lt;lb/&gt;&lt;gap reason="deleted" unit="line" quantity="0.25"/&gt;so fremd zu sein, dass ich unmöglich annehmen kann, &lt;lb/&gt;sie hätten Ihre volle &lt;add place="above"&gt;und innerste &lt;/add&gt;Billigung gefunden. Unsere &lt;name key="W.0000021.01" type="work"&gt;Stellungnahme&lt;/name&gt; ? &lt;add place="above"&gt;die &lt;/add&gt;nicht&lt;add place="inline"&gt;s&lt;/add&gt; &lt;lb/&gt;&lt;subst&gt;&lt;del rend="strikethrough"&gt;die&lt;/del&gt;&lt;add place="above"&gt;mit der&lt;/add&gt;&lt;/subst&gt; gewisser gegnerischer Elemente &lt;add place="above"&gt;zu tun hat &lt;/add&gt;? war die unseres Erachtens notwendige 
+&lt;lb/&gt;Reaktion. Eine wirklich starke &lt;orgName key="K.0000001"&gt;Partei&lt;/orgName&gt; wird es sich zum Ruhme anrechnen, &lt;lb/&gt;dass sie für die Meinung jedes Parteimitglieds ? &lt;del rend="strikethrough"&gt;für &lt;/del&gt;jede in correcter Form &lt;lb/&gt;ausgedrückte Meinung ? Platz hat. &lt;g/&gt;So die deutsche Sozialdemokratie im &lt;lb/&gt;Falle &lt;persName key="P.0000444"&gt;Bernstein&lt;/persName&gt;, während für die französische das Versagen in einem ähnlichen &lt;lb/&gt;Falle der Anfang vom Ende sein dürfte.&lt;g/&gt; &lt;del rend="strikethrough"&gt;Nur &lt;/del&gt;&lt;subst&gt;&lt;del rend="overstrike"&gt;e&lt;/del&gt;&lt;add&gt;E&lt;/add&gt;&lt;/subst&gt;ine gerecht und freiheitlich &lt;lb/&gt;geleitete Bewegung wird in der Stunde der grossen Parole jeden Mann &lt;lb/&gt;auf seinem Posten und alle Meinungen zu Einer Tat verschmolzen finden.&lt;/p&gt;
+&lt;closer&gt; 
 &lt;salute&gt;Mit Zionsgruss und dem Ausdrucke der vorzüglichsten Hochachtung&lt;/salute&gt; 
 &lt;lb/&gt;&lt;signed&gt;Martin Buber&lt;/signed&gt;
- &lt;/closer&gt;
-&lt;/div&gt;
-</code></pre>
+&lt;/closer&gt;
+&lt;/div&gt;</code></pre>
                 <p class="small">☞ markup of entities in transcription</p>
             </div>
             <div class="step">
-                <h2 class="red"><code>abstract</code></h2>
+                <h2>&lt;abstract&gt;</h2>
                 <pre><code class="linenumbers">&lt;abstract&gt;
  &lt;list type="content"&gt;
     &lt;item&gt;Buber verlangt von Herzl eine Stellungnahme 
@@ -241,7 +219,7 @@
                 <p>☞ provide a human readable summary</p>
             </div>
             <div class="step">
-                <h2 class="red">persons | organisations mentioned</h2>
+                <h2>persons | organisations mentioned</h2>
                 <pre><code class="linenumbers">&lt;listPerson&gt;
  &lt;person&gt;
     &lt;persName key="P.0000444"&gt;Bernstein, Eduard&lt;/persName&gt;
@@ -251,19 +229,18 @@
  &lt;/person&gt;
 &lt;/listPerson&gt;
 </code></pre>
-            
                 <pre><code class="linenumbers">&lt;listOrg&gt;
  &lt;org&gt;
     &lt;orgName key="K.0000001"&gt;Zionistische Partei&lt;/orgName&gt;
  &lt;/org&gt;
 &lt;/listOrg&gt;
 </code></pre>
-                <p class="small">☞ provides <em>human and machine-readable</em> indices on entities relevant to the correspondence:
-                <br/>☞ <em>one, unique</em> key for each entitiy (person, place, organisation, work, event, keyword)</p>
-                
+                <p class="small">☞ provides <em>human and machine-readable</em> indices on entities
+                    relevant to the correspondence: <br />☞ <em>one, unique</em> key for each
+                    entitiy (person, place, organisation, work, event, keyword)</p>
             </div>
-            <!--<div class="step">
-                <h2 class="red">works mentioned</h2>
+            <div class="step">
+                <h2>works mentioned</h2>
                 <pre><code class="linenumbers">&lt;list type="works"&gt;
  &lt;item&gt;
     &lt;name key="W.0000028.01" type="work"&gt;Nordau, Max: Achad-Haam über Altneuland
@@ -278,9 +255,9 @@
 &lt;/list&gt;
 </code>
            </pre>
-            </div>-->
-            <!--<div class="step">
-     <h2 class="red">keywords attributed to content</h2>           
+            </div>
+            <div class="step">
+                <h2>keywords attributed to content</h2>
                 <pre><code class="linenumbers">&lt;list type="keywords"&gt;
  &lt;item&gt;
     &lt;name key="S.0000014" type="keyword"&gt;Altneuland-Kontroverse&lt;/name&gt;
@@ -296,10 +273,9 @@
  &lt;/item&gt;
 &lt;/list&gt;
 </code></pre>
-            </div>-->
-            
+            </div>
             <div class="step">
-                <h2 class="red">relations between entities</h2>
+                <h2>relations between entities</h2>
                 <pre><code class="linenumbers"> &lt;listRelation&gt; 
      &lt;relation active="P.0000001" name="refersTo"    passive="P.0000444"/&gt;
      &lt;relation active="P.0000001" name="attacks"     passive="K.0000001"/&gt;
@@ -308,13 +284,13 @@
  &lt;/listRelation&gt;
 &lt;/abstract&gt;
 </code></pre>
-                <p>☞ define relations between entities<br/>☞ create a network of entities<br/>☞ provide structured, entity based abstract of specific correspondence</p>
+                <p>☞ define relations between entities<br />☞ create a network of entities<br />☞
+                    provide structured, entity based abstract of specific correspondence</p>
             </div>
-            
             <div class="step">
                 <div class="row">
                     <div class="twalve columns">
-                        <h2 class="red">levels of editing in BKD</h2>
+                        <h2>levels of editing in BKD</h2>
                         <table>
                             <tr>
                                 <th>type</th>
@@ -334,49 +310,75 @@
                                 <td>✅</td>
                                 <td></td>
                             </tr>
-                            
                             <tr>
                                 <td>C</td>
                                 <td>✅</td>
                                 <td></td>
                                 <td></td>
                             </tr>
-                        </table><div class="row">
+                        </table>
+                        <div class="row">
                             <div class="three columns">
-                                
-                                <p>☞ <strong>Type B</strong></p></div><div class="nine columns"><p>provides an highly structured abstract enriched with metadata and lists of entities. It plays an eminent role in BKD.</p>
+                                <p>☞ <strong>Type B</strong></p>
+                            </div>
+                            <div class="nine columns">
+                                <p>provides an highly structured abstract enriched with metadata and
+                                    lists of entities. It plays an eminent role in BKD.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="step">
-                <h2 class="red">analyse of relations of a correspondence</h2>
-                <div class="row"><div class="twalve columns"><figure class="mfp-lightbox"><a href="resources/img/Relation_Herzl_Buber.png"><img src="resources/img/Relation_Herzl_Buber.png" alt="Buber-Herzl-relation"/></a></figure></div>
-                    <p class="x-small right">source: internship (Praxisprojekt) on relational data by <a href="https://www.adwmainz.de/mitarbeiterinnen/profil/linnaea-soehn.html" target="blank">Linnaea Söhn</a> </p></div>
-                
+                <h2>analyse of relations of a correspondence</h2>
+                <div class="row">
+                    <div class="twalve columns">
+                        <figure class="mfp-lightbox">
+                            <a href="resources/img/Relation_Herzl_Buber.png">
+                                <img src="resources/img/Relation_Herzl_Buber.png"
+                                    alt="Buber-Herzl-relation" />
+                            </a>
+                        </figure>
+                    </div>
+                    <p class="x-small right">source: internship (Praxisprojekt) on relational data
+                        by <a
+                            href="https://www.adwmainz.de/mitarbeiterinnen/profil/linnaea-soehn.html"
+                            target="blank">Linnaea Söhn</a>
+                    </p>
+                </div>
             </div>
             <div class="step">
-                <h2 class="red">analytical approach to correspondences</h2>
-                <div class="row"><div class="six columns"><figure class="mfp-lightbox even-left"><a href="resources/img/neo4j.png"><img src="resources/img/neo4j.png" alt="neo4j" style="width:40rem"/></a></figure><p class="x-small">Visualisation generated with the help of <a href="https://www.adwmainz.de/mitarbeiterinnen/profil/prof-dr-andreas-kuczera.html" target="blank">Andreas Kuczera</a></p></div><div class="six columns">
-                    <h3>mission statement</h3>
-                    <ul class="line-height-one-five">
-                        <li>focus more on relation(s) between entities …</li>
-                        <li>… full-text (transcription of text) is (probably) less important than structured capture of content</li>
-                    </ul>
-                </div></div>
-                
+                <h2>analytical approach to correspondences</h2>
+                <div class="row">
+                    <div class="six columns">
+                        <figure class="mfp-lightbox even-left">
+                            <a href="resources/img/neo4j.png">
+                                <img src="resources/img/neo4j.png" alt="neo4j" style="width:40rem"
+                                 />
+                            </a>
+                        </figure>
+                        <p class="x-small">Visualisation generated with the help of <a
+                                href="https://www.adwmainz.de/mitarbeiterinnen/profil/prof-dr-andreas-kuczera.html"
+                                target="blank">Andreas Kuczera</a></p>
+                    </div>
+                    <div class="six columns">
+                        <h3 class="red">mission statement</h3>
+                        <ul class="line-height-one-five">
+                            <li>focus more on relation(s) between entities …</li>
+                            <li>… full-text (transcription of text) is (probably) less important
+                                than structured capture of content</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-
-            
             <!--<div class="step">
-                <h2 class="red">places</h2>
+                <h2>places</h2>
             </div>
             <div class="step">
-                <h2 class="red">events</h2>
+                <h2>events</h2>
             </div>
             <div class="step">
-                <h2 class="red">topics</h2>
+                <h2>topics</h2>
             </div>-->
         </div>
         <!-- jquery -->
