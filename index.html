@@ -101,7 +101,8 @@
                         <td>
                             <ul class="down-25 line-height-one-five even-left">
                                 <li>Korrespondenzpartner:innen: ~7,000</li>
-                                <li>Korrespondenzen: ~41,400 Einheiten </li><li>5,380 Archivmappen</li>
+                                <li>Korrespondenzen: ~41,400 Einheiten </li>
+                                <li>5,380 Archivmappen</li>
                                 <li>Bilddigitalisate: 106,073 (Stand: Nov 2022) </li>
                                 <li>Zeitspanne: 1895-1965</li>
                                 <li>Sprachen: 12</li>
@@ -161,8 +162,10 @@
                         <td class="right">41,400️</td>
                     </tr>
                 </table>
-                <ul><li>differenzierte Erfassungstiefe realisiert mit TEI</li></ul>
-           <!--     <div class="row">
+                <ul>
+                    <li>differenzierte Erfassungstiefe realisiert mit TEI</li>
+                </ul>
+                <!--     <div class="row">
                     <div class="three columns">
                         <p>☞ <strong>Type B</strong></p>
                     </div>
@@ -170,74 +173,106 @@
                         <p>provides an highly structured abstract enriched with metadata and
                             lists of entities. It plays an eminent role in BKD.</p>
                     </div>
-                </div>-->   
+                </div>-->
             </div>
-                <div class="step">
-                    <h2>Ersterfassung</h2>
-                    <table>
-                        <tr><th>Archiv</th><th>BKD</th></tr>
-                        <tr><td><figure class="mfp-lightbox"><a href="resources/img/NLI_Weltsch_Felix.png"><img src="resources/img/NLI_Weltsch_Felix.png" alt="Archivmappen der NLI"/></a></figure></td>
-                            <td>
-                                <figure class="mfp-lightbox"><a href="resources/img/BKD06626.png"><img src="resources/img/BKD06626.png" alt="BKD-Korrespondenz"/></a></figure>
-                            </td></tr>
-                        <tr><td>3 Archivmappen</td><td>34 BKD-TEI-XML Dateien der Korrespondenz BKD06626 (Buber-Weltsch, Felix</td></tr>
-                    </table>
-                    <ul><li>Archivlogistik in Korrespondenzstruktur überführen</li>
-                    <li>Archiv erschlossen mittels Googletabellen </li></ul>
-                </div>
+            <div class="step">
+                <h2>Transformation</h2>
+                <table>
+                    <tr>
+                        <th>Archiv (NLI)</th>
+                        <th>BKD06626 Weltsch, Felix</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <figure class="mfp-lightbox">
+                                <a href="resources/img/NLI_Weltsch_Felix.png">
+                                    <img src="resources/img/NLI_Weltsch_Felix.png"
+                                        alt="Archivmappen der NLI" />
+                                </a>
+                            </figure>
+                        </td>
+                        <td>
+                            <figure class="mfp-lightbox">
+                                <a href="resources/img/BKD06626.png">
+                                    <img src="resources/img/BKD06626.png" alt="BKD-Korrespondenz" />
+                                </a>
+                            </figure>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3 Archivmappen</td>
+                        <td>34 BKD-TEI-XML Dateien</td>
+                    </tr>
+                </table>
+                <ul>
+                    <li>Archivlogik überführt in Korrespondenzstruktur</li>
+                </ul>
+            </div>
             <div class="step">
                 <h2>tool: Googlespreadsheets</h2>
-                <p>images</p>
-                <ul><li>link zu Bilddigitalisaten</li><li>strukturierte Erfassung</li><li>Identifikation von Korrespondenzeinheiten</li>
-                    <li>Basis für skriptgesteuerte XML-Generierung</li></ul>
+                <!--<h2>Ersterfassung </h2>-->
+                <div class="row">
+<div class="six columns">
+                    <figure class="mfp-lightbox"><a href="resources/img/google_tabelle.png"><img src="resources/img/google_tabelle.png" alt="Erfassungstabelle"/></a></figure>
+                </div>
+                    <div class="six columns">
+                <p>Archivmappen werden mittels Googlespreadsheets<!-- sheets oder sheats-->
+                    erschlossen</p>
+                <ul>
+                    <li>Verlinkung mit Bilddigitalisaten</li>
+                    
+                    <li>Identifikation von Korrespondenzeinheiten</li>
+                    <li>Anreicherung mit Metadaten</li>
+                    <li>Basis für skriptgesteuerte XML-Generierung</li>
+                </ul>
+                    </div>
+                    </div>
             </div>
             <div class="step">
                 <h2>tool: eScriptorium</h2>
-                <ul><li>Modell für Bubers Handschrift</li><li>eScriptorium als komfortables Transkriptionstool</li>
-                <li>Export der Transkriptionen (pageXml--> BKD-TEI-XML)</li>
-                <li>Integration in Dateiengenerierung (google --> BKD-TEI-XML</li></ul>
+                <div class="row">
+                    <div class="four columns">
+                        <figure class="mfp-lightbox"><a href="resources/img/google_tabelle.png">
+                            <img src="resources/img/google_tabelle.png" alt="google_tabelle"/>
+                            
+                        </a></figure>
+                    </div>
+
+                    <div class="four columns">
+                        <figure class="mfp-lightbox"><a href="resources/img/eScr_01.png">
+                            <img src="resources/img/eScr_01.png" alt="eScriptorium"/>
+                            
+                        </a></figure>
+                    </div>
+                    <div class="four columns">
+                        <figure class="mfp-lightbox"><a href="">
+                            <img src="resources/img/eScr2XML.png" alt="BKD00501.19120912.01.S.xml"/>
+                            
+                        </a></figure>
+                    </div>
+                    
+                </div>
+                <ul>
+                    <li><strong>todo</strong> HTR-Modell für Bubers Handschrift (z.Zt. 94%/30 pages)</li>
+                    <li><strong>now</strong> eScriptorium als komfortables Transkriptionstool</li>
+                    <li>Export der Transkriptionen (pageXml--> BKD-TEI-XML)</li>
+                    <li>Integration in Dateiengenerierung: von Ersterfassung in Google über Transkription zu BKD-TEI-XML-Datei</li>
+                </ul>
+            </div>
+            <div class="step">
+                <h2>Entitäten</h2>
+                <p>Beispiel … implizite Entitäten</p>
+            </div>
+            <div class="step">
+                <h2>Entitäten – dynamisch</h2>
+
+<p>relation</p>                <p>ODD</p>
             </div>
             <div class="step">
                 <h2>workflow</h2>
                 <p>schema -- Organigramm</p>
             </div>
-            <div class="step">
-                <h2>Buber-Correspondences</h2>
-                <div class="row">
-                    <div class="six columns">
-                        <figure class="mfp-lightbox up-10 centered">
-                            <a href="resources/img/herzl_buber_env.png">
-                                <img src="resources/img/herzl_buber_env.png" alt="envelope"
-                                    style="width:20rem" />
-                            </a>
-                        </figure>
-                    </div>
-                    <div class="six columns">
-                        <table class="x-small line-height-one down-25">
-                            <tr>
-                                <td>sender</td>
-                                <td>Martin Buber</td>
-                            </tr>
-                            <tr>
-                                <td>receiver</td>
-                                <td>Theodor Herzl</td>
-                            </tr>
-                            <tr>
-                                <td>place (sent)</td>
-                                <td>Wien</td>
-                            </tr>
-                            <tr>
-                                <td>place (received)</td>
-                                <td>Wien</td>
-                            </tr>
-                            <tr>
-                                <td>date (sent)</td>
-                                <td>May 21, 1903</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-            </div>
+            
             <div class="step">
                 <h2>&lt;correspDesc&gt; </h2>
                 <div class="row">
@@ -380,22 +415,7 @@
                 <p>☞ define relations between entities<br />☞ create a network of entities<br />☞
                     provide structured, entity based abstract of specific correspondence</p>
             </div>
-            <div class="step">
-                <div class="row">
-                    <div class="twalve columns">
-                        <h2>levels of editing in BKD</h2>
-                        <div class="row">
-                            <div class="three columns">
-                                <p>☞ <strong>Type B</strong></p>
-                            </div>
-                            <div class="nine columns">
-                                <p>provides an highly structured abstract enriched with metadata and
-                                    lists of entities. It plays an eminent role in BKD.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
             <div class="step">
                 <h2>analyse of relations of a correspondence</h2>
                 <div class="row">
@@ -438,15 +458,7 @@
                     </div>
                 </div>
             </div>
-            <!--<div class="step">
-                <h2>places</h2>
-            </div>
-            <div class="step">
-                <h2>events</h2>
-            </div>
-            <div class="step">
-                <h2>topics</h2>
-            </div>-->
+            
         </div>
         <!-- jquery -->
         <script src="vendor/jquery/jquery-1.11.0.min.js"></script>
