@@ -156,7 +156,7 @@ BASIC TYPOGRAPHY
 */
 
 h1 {
-	font-size: 100px;
+	font-size: 80px;
 }
 
 h2 {
@@ -209,7 +209,8 @@ sub {
 
 ol, ul {
 	margin: 0 0 20px 40px;
-	line-height: 1;
+	line-height: 1.5;
+	/*line-height: 1;*/	
 }
 
 ol ol, ul ul {

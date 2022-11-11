@@ -45,6 +45,7 @@
 .step h2:first-child + h3 {
 	position: relative;
 	z-index: -1;
+	margin-top: -25px;
 	margin-right: 4em;
 	padding-left: 1em;
 	background-color: #e3f0d2;
